@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dev Board</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <style>
+        .ppp {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
 </head>
-<body>
-     <header>
-        <section>
-            <nav>git</nav>
-            <section>
-                <fieldset>
-                    
-                </fieldset>
-            </section>
+
+<body class="ppp bg-[#F4F7FF] ">
+    <main class="min-h-screen">
+        <section class="w-[94%] md:max-w-7xl mx-auto py-4 ">
+            <!-- nav bar  -->
+            <header class="flex justify-between items-center bg-white py-4 px-4 rounded-[16px]">
+                <div class="flex items-center gap-3 cursor-pointer ">
+                    <div class="w-[32px] md:w-[45px] hover:scale-105 duration-300">
+                        <a href="index.html"><img src="assets/logo.png" alt="" /></a>
+                    </div>
+                    <h1 class="text-[20px] md:text-[30px]"> <a href="index.html">Deb <span class="font-[700]">Board</span></a>
+                    </h1>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="flex items-center rounded-[32px] bg-[#F4F7FF] p-1 gap-4 px-4 py-2 ">
+                        <div class="md:w-[28px] w-[20px]">
+                            <img class="hover:scale-105 duration-300 " src="./assets/checkbox.png" alt="">
+                        </div>
+                        <p class="font-[700] text-[20px] md:text-[28px]">23</p>
+                    </div>
+                    <div class="w-[50px] cursor-pointer">
+                        <img class="w-[35px] md:w-[40px]" src="./assets/theme-btn.png" alt="">
+                    </div>
+                </div>
+            </header>
+
         </section>
-     </header>
+    </main>
 </body>
+
 </html>
